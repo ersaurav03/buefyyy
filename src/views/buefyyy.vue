@@ -690,12 +690,29 @@
 	</div>
 </div>
 
+<div class="block">
+	<canvas id="myChart"></canvas>
+
+</div>
+
 		<div style="margin-top:500px"></div>
 	</div>
 </template>
 
 <script>
-
+export default{
+	// data(){
+	// 	return{
+	// 	 myChart:'' 
+	// 	}
+	// }
+	// methods:{
+	// 	fun(){
+	// 		this.myChart= document.getElementById('myChart').getText('2d')
+	// 	}
+	// }
+	
+}
 </script>
 
 <style>
