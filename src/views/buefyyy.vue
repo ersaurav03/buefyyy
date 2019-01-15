@@ -383,7 +383,86 @@
      			</li>
      		</ul>
      	</nav>
+
+     	<div class="block">
+     		<nav class="level">
+     			<div class="level-left">
+     				<p class="level-item"><a><strong>All</strong></a></p>
+     				<p class="level-item"><a>Published</a></p>
+     				<p class="level-item"><a>Draft</a></p>
+     				<p class="level-item"><a>Deleted</a></p>
+     				<p class="level-item"><a class="button is-primary">New</a></p>
+     			</div>
+
+                <div class="level-right">
+                	<div class="level-item">
+                		<div class="field">
+                			<p class="control">
+                				<input type="text" class="input-control" placeholder="Searc posts...">
+                			</p>
+                		</div>
+                	</div>
+                </div>
+
+     		</nav>
+     	</div>
      </div>
+
+
+     <!-- Forms --->
+     <div class="block">
+     	<form>
+     		<div class="field">
+     			<label class="label">Name</label>
+     			<input type="text" class="input is-primary" placeholder="Enter Name">
+     		</div>
+
+     		<div class="field">
+     			<label class="label">Father's Name</label>
+     			<input type="text" class="input is-danger" placeholder="Enter Name">
+     		</div>
+
+     		<div class="field">
+     			<label class="label">Mother's Name</label>
+     			<input type="text" class="input is-success" placeholder="Enter Name">
+     		</div>
+     	</form>
+     </div>
+
+
+<div class="field">
+	<label class="label">Packages</label>
+	<p class="control">
+		<span class="select">
+			<select>
+				<option>Select Dropdown</option>
+				<option>Simple</option>
+				<option>Standards</option>
+				<option>Super</option>
+				<option>Medium</option>
+			</select>
+		</span></p>
+</div>
+
+<div class="field">
+	<label class="label">Message</label>
+	<p class="control">
+		<textarea class="textarea is-danger" placeholder="textarea"></textarea>
+	</p>
+</div>
+
+<!--  Attatched-->
+
+<div class="block">
+	<div class="field has-addons">
+		<p class="control">
+			<input type="text" class="input" placeholder="Enter keywords">
+		</p>
+		<p class="control">
+			<a href="" class="button in-info">Primary</a>
+		</p>
+	</div>
+</div>
 		<div style="margin-top:500px"></div>
 	</div>
 </template>
