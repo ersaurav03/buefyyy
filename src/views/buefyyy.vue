@@ -459,10 +459,237 @@
 			<input type="text" class="input" placeholder="Enter keywords">
 		</p>
 		<p class="control">
-			<a href="" class="button in-info">Primary</a>
+			<a href="" class="button in-info is-outlined">Primary</a>
 		</p>
 	</div>
 </div>
+
+
+<!--textfiled with select -->
+<div class="block">
+		<div class="field has-addons">
+		<p class="control">
+			<span class="select">
+				<select>
+					<option>$</option>
+					<option>#</option>
+					<option>&</option>
+				</select>
+			</span>
+		</p>
+		<p class="control">
+			<input type="text" class="input" placeholder="Enter Amount">
+		</p>
+		<p class="control">
+			<a href="" class="button in-info is-outlined">Pay</a>
+		</p>
+	</div>
+</div>
+
+<!-- Tables -->
+<div class="block">
+	<table class="table is-striped">
+  <thead>
+    <tr>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr class="is-selected">
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+	<table class="table is-bordered">
+  <thead>
+    <tr>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+	<table class="table is-narrow is-striped">
+  <thead>
+    <tr>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<!-- Grid system -->
+<div class="block">
+	<div class="columns">
+		<div class="column">
+			<p class="notification">Column 1</p>
+		</div>
+
+	</div>
+</div>
+
+<div class="block">
+	<div class="columns">
+		<div class="column">
+			<p class="notification">Column 1</p>
+		</div>
+		<div class="column">
+			<p class="notification">Column 2</p>
+		</div>
+
+	</div>
+</div>
+
+<div class="block">
+	<div class="columns">
+		<div class="column">
+			<p class="notification">Column 1</p>
+		</div>
+		<div class="column">
+			<p class="notification">Column 2</p>
+		</div>
+
+		<div class="column">
+			<p class="notification">Column 3</p>
+		</div>
+	</div>
+</div>
+
+<div class="block">
+	<div class="columns">
+		<div class="column">
+			<p class="notification">Column 1</p>
+		</div>
+		<div class="column">
+			<p class="notification">Column 2</p>
+		</div>
+
+		<div class="column">
+			<p class="notification">Column 3</p>
+		</div>
+
+		<div class="column">
+			<p class="notification">Column 4</p>
+		</div>
+	</div>
+</div>
+
+<div class="block">
+	<div class="columns">
+		<div class="column is-2">
+			<p class="notification">Column * 2</p>
+		</div>
+		<div class="column is-8">
+			<p class="notification ">Column * 8</p>
+		</div>
+
+		<div class="column">
+			<p class="notification is-2">Column * 2</p>
+		</div>
+	</div>
+</div>
+
+<div class="block">
+	<div class="columns">
+		<div class="column is-three-quarters">
+			<p class="notification">Is Three Quarters</p>
+		</div>
+		<div class="column">
+			<p class="notification">Auto</p>
+		</div>
+
+		<div class="column">
+			<p class="notification">Auto</p>
+		</div>
+
+
+	</div>
+</div>
+
+
+<div class="block">
+	<div class="columns">
+		<div class="column is-two-third">
+			<p class="notification">is-two-third</p>
+		</div>
+		<div class="column">
+			<p class="notification">Auto</p>
+		</div>
+
+		<div class="column">
+			<p class="notification">Auto</p>
+		</div>
+	</div>
+</div>
+
+<div class="block">
+	<div class="columns">
+		<div class="column is-half">
+			<p class="notification">is-half</p>
+		</div>
+		<div class="column">
+			<p class="notification">Auto</p>
+		</div>
+
+		<div class="column">
+			<p class="notification">Auto</p>
+		</div>
+	</div>
+</div>
+
 		<div style="margin-top:500px"></div>
 	</div>
 </template>
