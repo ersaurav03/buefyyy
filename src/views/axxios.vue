@@ -4,16 +4,17 @@
 
 <!-- <h6>{{info}}</h6> -->
 
-  <div
-    v-for="currency in info"
+  <div v-model="test.data"
+    v-for="currency in arr"
     class="currency"
   >
-    {{ currency.data }}
-    </div>
+{{arr.label}}
 
+    {{currency.data }}
+    </div>
+<graphp height="100px" :data="test"></graphp>
 
 <!--  <h1> Part 2</h1>
-
 
   <h1>JSMPJ quotes comes from: {{info}}</h1>
 
@@ -27,10 +28,6 @@
       <span v-html="currency.symbol"></span>{{ currency.rate_float | currencydecimal }}
     </span>
   </div> -->
-
-
-
-
 
 <!--  <h1>  part3</h1>
 
@@ -59,19 +56,35 @@
 
 <script>
 import axios from 'axios'
+import graphp from './graphp.vue'
 export default{
 //part1
+components:{
+  graphp
+},
   data () {
     return {
-      info: null
+test:{
+labels: ['Jan', 'Feb','Mar','Apr','May','Jun','July','Aug','Sept','Oct','Nov','Dec'],
+datasets: [
+{
+label: 'Data One',
+backgroundColor: '#f87979',
+data: []
+
+}
+]
+},
+      info: null,
+      arr:[]
     }
   },
   mounted () {
     axios
-      .get('https://api.myjson.com/bins/1ci024')
-      .then(response => (this.info = response))
+      .get('https://api.myjson.com/bins/pgiy4')
+      .then(response => (this.arr = response))
   }
-
+// created api in 
 
 //Part 3
   // data () {
