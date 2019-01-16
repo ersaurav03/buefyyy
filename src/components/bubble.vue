@@ -1,7 +1,7 @@
 <script>
-import { Bar } from 'vue-chartjs';
+import { Bubble } from 'vue-chartjs';
 export default {
-extends: Bar,
+extends: Bubble,
 props: ['data', 'options'],
 mounted () {
 this.renderChart({
@@ -17,6 +17,9 @@ backgroundColor: [
                 'rgba(153, 102, 255, 0.9)',
                 'rgba(255, 159, 64, 1.0)'
 ],
+
+
+
  borderColor:
  [
  'rgb(255, 0, 132)',
@@ -26,8 +29,36 @@ backgroundColor: [
   'rgb(255, 206, 86)',
   'rgb(75, 192, 192)',
   ] ,
+
             borderWidth: 1,
-data: [10,5,30,15,50,20]
+data: [
+{
+                x: -10,
+                y: 0,
+                l:'Jan'
+            }, {
+                x: 0,
+                y: 10,
+                l:'Jan'
+            }, {
+                x: 10,
+                y: 5,
+                l:'Jan'
+            },
+            {
+                x: -20,
+                y: 0,
+                l:'Jan'
+            }, {
+                x: 0,
+                y: 15,
+                l:'Jan'
+            }, {
+                x: 10,
+                y: 50,
+                l:'Jan'
+            }
+]
 }
 ]
 }, {

@@ -10,6 +10,10 @@ datasets: [
 {
 label: 'Data One',
 backgroundColor: '#f87979',
+ borderColor: [ 
+ 'rgb(255, 0, 132)'
+
+ ],
 data: [10,5,30,15,50,20]
 }
 ]

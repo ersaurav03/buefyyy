@@ -1,7 +1,7 @@
 <script>
-import { Bar } from 'vue-chartjs';
+import { Radar } from 'vue-chartjs';
 export default {
-extends: Bar,
+extends: Radar,
 props: ['data', 'options'],
 mounted () {
 this.renderChart({
@@ -26,8 +26,8 @@ backgroundColor: [
   'rgb(255, 206, 86)',
   'rgb(75, 192, 192)',
   ] ,
-            borderWidth: 1,
-data: [10,5,30,15,50,20]
+            // borderWidth: 1,
+data: [50,5,30,15,50,20]
 }
 ]
 }, {
