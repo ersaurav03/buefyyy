@@ -5,16 +5,16 @@ extends: Line,
 props: ['data', 'options'],
 mounted () {
 this.renderChart({
-labels: ['Jan', 'Feb','Mar','Apr','May',"Jun"],
+labels: ['Jan', 'Feb','Mar','Apr','May','Jun','July','Aug','Sept','Oct','Nov','Dec'],
 datasets: [
 {
-label: 'Data One',
+label: 'Line chart Representation',
 backgroundColor: '#f87979',
  borderColor: [ 
  'rgb(255, 0, 132)'
 
  ],
-data: [10,5,30,15,50,20]
+data: [10,5,30,15,50,20,11,44,66,99,49,65]
 }
 ]
 }, {

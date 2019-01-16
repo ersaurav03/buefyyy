@@ -701,16 +701,7 @@
 
 <script>
 export default{
-	// data(){
-	// 	return{
-	// 	 myChart:'' 
-	// 	}
-	// }
-	// methods:{
-	// 	fun(){
-	// 		this.myChart= document.getElementById('myChart').getText('2d')
-	// 	}
-	// }
+
 	
 }
 </script>
