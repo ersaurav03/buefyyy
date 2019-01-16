@@ -2,7 +2,14 @@
   <div>
 <h1>Part 1</h1>
 
-<h6>{{info}}</h6>
+<!-- <h6>{{info}}</h6> -->
+
+  <div
+    v-for="currency in info"
+    class="currency"
+  >
+    {{ currency.data }}
+    </div>
 
 
 <!--  <h1> Part 2</h1>
@@ -61,7 +68,7 @@ export default{
   },
   mounted () {
     axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .get('https://api.myjson.com/bins/1ci024')
       .then(response => (this.info = response))
   }
 
