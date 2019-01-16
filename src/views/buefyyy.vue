@@ -248,463 +248,463 @@
 				</div>
 			</nav>
 		</div>
-<div class="block">
-	<aside class="menu">
-		<p class="menu-label">
-			Label 1
-		</p>
-		<ul class="menu-list">
-			<li><a href="">Link 1</a></li>
-			<li><a href="">Link 2</a></li>
-			<li><a href="">Link 3</a></li>
-		</ul>
+		<div class="block">
+			<aside class="menu">
+				<p class="menu-label">
+					Label 1
+				</p>
+				<ul class="menu-list">
+					<li><a href="">Link 1</a></li>
+					<li><a href="">Link 2</a></li>
+					<li><a href="">Link 3</a></li>
+				</ul>
 
-		<p class="menu-label">
-			Label 2
-		</p>
-		<ul class="menu-list">
-			<li><a href="">Link 1</a></li>
-			<li><a href="" class="is-active">Link 2</a>
-			<ul>
-			<li><a href="">Link 2.1</a></li>
-			<li><a href="">Link 2.2</a></li>
-			<li><a href="">Link 2.3</a></li>
-			</ul>
-			</li>
-            <li><a href="">Link 2</a></li>
-			<li><a href="">Link 3</a></li>
-		</ul>
-	</aside>
-</div>
-
-        <!-- Heroo -->
-         <div class="block">
-         	 <section class="hero">
-         		<div class="hero-body">
-         			<div class="container">
-         				<h1 class="title">Hero title</h1>
-         				<h1 class="subtitle">Hero Sub title</h1>
-         			</div>
-         		</div>
-         	</section>
-         	<section class="hero is-primary">
-         		<div class="hero-body">
-         			<div class="container">
-         				<h1 class="title">Hero title</h1>
-         				<h1 class="subtitle">Hero Sub title</h1>
-         			</div>
-         		</div>
-         	</section>
-               <section class="hero is-danger">
-         		<div class="hero-body">
-         			<div class="container">
-         				<h1 class="title">Hero title</h1>
-         				<h1 class="subtitle">Hero Sub title</h1>
-         			</div>
-         		</div>
-         	</section>
-
-         	<section class="hero is-info">
-         		<div class="hero-body">
-         			<div class="container">
-         				<h1 class="title">Hero title</h1>
-         				<h1 class="subtitle">Hero Sub title</h1>
-         			</div>
-         		</div>
-         	</section>
-
-         	<section class="hero is-warning">
-         		<div class="hero-body">
-         			<div class="container">
-         				<h1 class="title">Hero title</h1>
-         				<h1 class="subtitle">Hero Sub title</h1>
-         			</div>
-         		</div>
-         	</section>
-
-         	<section class="hero is-dark">
-         		<div class="hero-body">
-         			<div class="container">
-         				<h1 class="title">Hero title</h1>
-         				<h1 class="subtitle">Hero Sub title</h1>
-         			</div>
-         		</div>
-         	</section>
-
-         	 <section class="hero is-success">
-         		<div class="hero-body">
-         			<div class="container">
-         				<h1 class="title">Hero title</h1>
-         				<h1 class="subtitle">Hero Sub title</h1>
-         			</div>
-         		</div>
-         	</section>
-
-         </div>
-<!-- Cards -->
-     <div class="block">
-     	<div class="card">
-     		<div class="card-content">
-     			<p class="title">
-     				This is all about
-     			</p>
-     		</div>
-     		<footer class="card-footer">
-     			<p class="card-footer-item">
-     				<span>
-     					View on <a href=""><i class="fab fa-twitter"></i>Twitter</a>
-     				</span>
-     			</p>	
-
-     			<p class="card-footer-item">
-     				<span>
-     					View on <a href=""><i class="fab fa-facebook"></i>Facebook</a>
-     				</span>
-     			</p>	
-     		</footer>
-     	</div>
-     </div>
-
-     <!-- Pagination -->
-     <div class="block">
-     	<nav class="pagination">
-     		<a href="" class="pagination-previous" disabled>Previous</a>
-     		<a href="" class="pagination-previous" >Next</a>
-     		<ul class="pagination-list">
-     			<li>
-     				<a href="" class="pagination-link is-current">1</a>
-     			</li>
-     			<li>
-     				<a href="" class="pagination-link">2</a>
-     			</li>
-     			<li>
-     				<a href="" class="pagination-link">3</a>
-
-     			</li>
-     		</ul>
-     	</nav>
-
-     	<div class="block">
-     		<nav class="level">
-     			<div class="level-left">
-     				<p class="level-item"><a><strong>All</strong></a></p>
-     				<p class="level-item"><a>Published</a></p>
-     				<p class="level-item"><a>Draft</a></p>
-     				<p class="level-item"><a>Deleted</a></p>
-     				<p class="level-item"><a class="button is-primary">New</a></p>
-     			</div>
-
-                <div class="level-right">
-                	<div class="level-item">
-                		<div class="field">
-                			<p class="control">
-                				<input type="text" class="input-control" placeholder="Searc posts...">
-                			</p>
-                		</div>
-                	</div>
-                </div>
-
-     		</nav>
-     	</div>
-     </div>
-
-
-     <!-- Forms --->
-     <div class="block">
-     	<form>
-     		<div class="field">
-     			<label class="label">Name</label>
-     			<input type="text" class="input is-primary" placeholder="Enter Name">
-     		</div>
-
-     		<div class="field">
-     			<label class="label">Father's Name</label>
-     			<input type="text" class="input is-danger" placeholder="Enter Name">
-     		</div>
-
-     		<div class="field">
-     			<label class="label">Mother's Name</label>
-     			<input type="text" class="input is-success" placeholder="Enter Name">
-     		</div>
-     	</form>
-     </div>
-
-
-<div class="field">
-	<label class="label">Packages</label>
-	<p class="control">
-		<span class="select">
-			<select>
-				<option>Select Dropdown</option>
-				<option>Simple</option>
-				<option>Standards</option>
-				<option>Super</option>
-				<option>Medium</option>
-			</select>
-		</span></p>
-</div>
-
-<div class="field">
-	<label class="label">Message</label>
-	<p class="control">
-		<textarea class="textarea is-danger" placeholder="textarea"></textarea>
-	</p>
-</div>
-
-<!--  Attatched-->
-
-<div class="block">
-	<div class="field has-addons">
-		<p class="control">
-			<input type="text" class="input" placeholder="Enter keywords">
-		</p>
-		<p class="control">
-			<a href="" class="button in-info is-outlined">Primary</a>
-		</p>
-	</div>
-</div>
-
-
-<!--textfiled with select -->
-<div class="block">
-		<div class="field has-addons">
-		<p class="control">
-			<span class="select">
-				<select>
-					<option>$</option>
-					<option>#</option>
-					<option>&</option>
-				</select>
-			</span>
-		</p>
-		<p class="control">
-			<input type="text" class="input" placeholder="Enter Amount">
-		</p>
-		<p class="control">
-			<a href="" class="button in-info is-outlined">Pay</a>
-		</p>
-	</div>
-</div>
-
-<!-- Tables -->
-<div class="block">
-	<table class="table is-striped">
-  <thead>
-    <tr>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr class="is-selected">
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-
-	<table class="table is-bordered">
-  <thead>
-    <tr>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-
-	<table class="table is-narrow is-striped">
-  <thead>
-    <tr>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
-<!-- Grid system -->
-<div class="block">
-	<div class="columns">
-		<div class="column">
-			<p class="notification">Column 1</p>
+				<p class="menu-label">
+					Label 2
+				</p>
+				<ul class="menu-list">
+					<li><a href="">Link 1</a></li>
+					<li><a href="" class="is-active">Link 2</a>
+						<ul>
+							<li><a href="">Link 2.1</a></li>
+							<li><a href="">Link 2.2</a></li>
+							<li><a href="">Link 2.3</a></li>
+						</ul>
+					</li>
+					<li><a href="">Link 2</a></li>
+					<li><a href="">Link 3</a></li>
+				</ul>
+			</aside>
 		</div>
 
-	</div>
-</div>
+		<!-- Heroo -->
+		<div class="block">
+			<section class="hero">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero title</h1>
+						<h1 class="subtitle">Hero Sub title</h1>
+					</div>
+				</div>
+			</section>
+			<section class="hero is-primary">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero title</h1>
+						<h1 class="subtitle">Hero Sub title</h1>
+					</div>
+				</div>
+			</section>
+			<section class="hero is-danger">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero title</h1>
+						<h1 class="subtitle">Hero Sub title</h1>
+					</div>
+				</div>
+			</section>
 
-<div class="block">
-	<div class="columns">
-		<div class="column">
-			<p class="notification">Column 1</p>
+			<section class="hero is-info">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero title</h1>
+						<h1 class="subtitle">Hero Sub title</h1>
+					</div>
+				</div>
+			</section>
+
+			<section class="hero is-warning">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero title</h1>
+						<h1 class="subtitle">Hero Sub title</h1>
+					</div>
+				</div>
+			</section>
+
+			<section class="hero is-dark">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero title</h1>
+						<h1 class="subtitle">Hero Sub title</h1>
+					</div>
+				</div>
+			</section>
+
+			<section class="hero is-success">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero title</h1>
+						<h1 class="subtitle">Hero Sub title</h1>
+					</div>
+				</div>
+			</section>
+
 		</div>
-		<div class="column">
-			<p class="notification">Column 2</p>
+		<!-- Cards -->
+		<div class="block">
+			<div class="card">
+				<div class="card-content">
+					<p class="title">
+						This is all about
+					</p>
+				</div>
+				<footer class="card-footer">
+					<p class="card-footer-item">
+						<span>
+							View on <a href=""><i class="fab fa-twitter"></i>Twitter</a>
+						</span>
+					</p>	
+
+					<p class="card-footer-item">
+						<span>
+							View on <a href=""><i class="fab fa-facebook"></i>Facebook</a>
+						</span>
+					</p>	
+				</footer>
+			</div>
 		</div>
 
-	</div>
-</div>
+		<!-- Pagination -->
+		<div class="block">
+			<nav class="pagination">
+				<a href="" class="pagination-previous" disabled>Previous</a>
+				<a href="" class="pagination-previous" >Next</a>
+				<ul class="pagination-list">
+					<li>
+						<a href="" class="pagination-link is-current">1</a>
+					</li>
+					<li>
+						<a href="" class="pagination-link">2</a>
+					</li>
+					<li>
+						<a href="" class="pagination-link">3</a>
 
-<div class="block">
-	<div class="columns">
-		<div class="column">
-			<p class="notification">Column 1</p>
-		</div>
-		<div class="column">
-			<p class="notification">Column 2</p>
-		</div>
+					</li>
+				</ul>
+			</nav>
 
-		<div class="column">
-			<p class="notification">Column 3</p>
-		</div>
-	</div>
-</div>
+			<div class="block">
+				<nav class="level">
+					<div class="level-left">
+						<p class="level-item"><a><strong>All</strong></a></p>
+						<p class="level-item"><a>Published</a></p>
+						<p class="level-item"><a>Draft</a></p>
+						<p class="level-item"><a>Deleted</a></p>
+						<p class="level-item"><a class="button is-primary">New</a></p>
+					</div>
 
-<div class="block">
-	<div class="columns">
-		<div class="column">
-			<p class="notification">Column 1</p>
-		</div>
-		<div class="column">
-			<p class="notification">Column 2</p>
-		</div>
+					<div class="level-right">
+						<div class="level-item">
+							<div class="field">
+								<p class="control">
+									<input type="text" class="input-control" placeholder="Searc posts...">
+								</p>
+							</div>
+						</div>
+					</div>
 
-		<div class="column">
-			<p class="notification">Column 3</p>
-		</div>
-
-		<div class="column">
-			<p class="notification">Column 4</p>
-		</div>
-	</div>
-</div>
-
-<div class="block">
-	<div class="columns">
-		<div class="column is-2">
-			<p class="notification">Column * 2</p>
-		</div>
-		<div class="column is-8">
-			<p class="notification ">Column * 8</p>
-		</div>
-
-		<div class="column">
-			<p class="notification is-2">Column * 2</p>
-		</div>
-	</div>
-</div>
-
-<div class="block">
-	<div class="columns">
-		<div class="column is-three-quarters">
-			<p class="notification">Is Three Quarters</p>
-		</div>
-		<div class="column">
-			<p class="notification">Auto</p>
-		</div>
-
-		<div class="column">
-			<p class="notification">Auto</p>
+				</nav>
+			</div>
 		</div>
 
 
-	</div>
-</div>
+		<!-- Forms --->
+		<div class="block">
+			<form>
+				<div class="field">
+					<label class="label">Name</label>
+					<input type="text" class="input is-primary" placeholder="Enter Name">
+				</div>
 
+				<div class="field">
+					<label class="label">Father's Name</label>
+					<input type="text" class="input is-danger" placeholder="Enter Name">
+				</div>
 
-<div class="block">
-	<div class="columns">
-		<div class="column is-two-third">
-			<p class="notification">is-two-third</p>
-		</div>
-		<div class="column">
-			<p class="notification">Auto</p>
-		</div>
-
-		<div class="column">
-			<p class="notification">Auto</p>
-		</div>
-	</div>
-</div>
-
-<div class="block">
-	<div class="columns">
-		<div class="column is-half">
-			<p class="notification">is-half</p>
-		</div>
-		<div class="column">
-			<p class="notification">Auto</p>
+				<div class="field">
+					<label class="label">Mother's Name</label>
+					<input type="text" class="input is-success" placeholder="Enter Name">
+				</div>
+			</form>
 		</div>
 
-		<div class="column">
-			<p class="notification">Auto</p>
+
+		<div class="field">
+			<label class="label">Packages</label>
+			<p class="control">
+				<span class="select">
+					<select>
+						<option>Select Dropdown</option>
+						<option>Simple</option>
+						<option>Standards</option>
+						<option>Super</option>
+						<option>Medium</option>
+					</select>
+				</span></p>
+			</div>
+
+			<div class="field">
+				<label class="label">Message</label>
+				<p class="control">
+					<textarea class="textarea is-danger" placeholder="textarea"></textarea>
+				</p>
+			</div>
+
+			<!--  Attatched-->
+
+			<div class="block">
+				<div class="field has-addons">
+					<p class="control">
+						<input type="text" class="input" placeholder="Enter keywords">
+					</p>
+					<p class="control">
+						<a href="" class="button in-info is-outlined">Primary</a>
+					</p>
+				</div>
+			</div>
+
+
+			<!--textfiled with select -->
+			<div class="block">
+				<div class="field has-addons">
+					<p class="control">
+						<span class="select">
+							<select>
+								<option>$</option>
+								<option>#</option>
+								<option>&</option>
+							</select>
+						</span>
+					</p>
+					<p class="control">
+						<input type="text" class="input" placeholder="Enter Amount">
+					</p>
+					<p class="control">
+						<a href="" class="button in-info is-outlined">Pay</a>
+					</p>
+				</div>
+			</div>
+
+			<!-- Tables -->
+			<div class="block">
+				<table class="table is-striped">
+					<thead>
+						<tr>
+							<th scope="col">First</th>
+							<th scope="col">Last</th>
+							<th scope="col">Handle</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr class="is-selected">
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="table is-bordered">
+					<thead>
+						<tr>
+							<th scope="col">First</th>
+							<th scope="col">Last</th>
+							<th scope="col">Handle</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table class="table is-narrow is-striped">
+					<thead>
+						<tr>
+							<th scope="col">First</th>
+							<th scope="col">Last</th>
+							<th scope="col">Handle</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+
+			<!-- Grid system -->
+			<div class="block">
+				<div class="columns">
+					<div class="column">
+						<p class="notification">Column 1</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="block">
+				<div class="columns">
+					<div class="column">
+						<p class="notification">Column 1</p>
+					</div>
+					<div class="column">
+						<p class="notification">Column 2</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="block">
+				<div class="columns">
+					<div class="column">
+						<p class="notification">Column 1</p>
+					</div>
+					<div class="column">
+						<p class="notification">Column 2</p>
+					</div>
+
+					<div class="column">
+						<p class="notification">Column 3</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="block">
+				<div class="columns">
+					<div class="column">
+						<p class="notification">Column 1</p>
+					</div>
+					<div class="column">
+						<p class="notification">Column 2</p>
+					</div>
+
+					<div class="column">
+						<p class="notification">Column 3</p>
+					</div>
+
+					<div class="column">
+						<p class="notification">Column 4</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="block">
+				<div class="columns">
+					<div class="column is-2">
+						<p class="notification">Column * 2</p>
+					</div>
+					<div class="column is-8">
+						<p class="notification ">Column * 8</p>
+					</div>
+
+					<div class="column">
+						<p class="notification is-2">Column * 2</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="block">
+				<div class="columns">
+					<div class="column is-three-quarters">
+						<p class="notification">Is Three Quarters</p>
+					</div>
+					<div class="column">
+						<p class="notification">Auto</p>
+					</div>
+
+					<div class="column">
+						<p class="notification">Auto</p>
+					</div>
+
+
+				</div>
+			</div>
+
+
+			<div class="block">
+				<div class="columns">
+					<div class="column is-two-third">
+						<p class="notification">is-two-third</p>
+					</div>
+					<div class="column">
+						<p class="notification">Auto</p>
+					</div>
+
+					<div class="column">
+						<p class="notification">Auto</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="block">
+				<div class="columns">
+					<div class="column is-half">
+						<p class="notification">is-half</p>
+					</div>
+					<div class="column">
+						<p class="notification">Auto</p>
+					</div>
+
+					<div class="column">
+						<p class="notification">Auto</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="block">
+				<canvas id="myChart"></canvas>
+
+			</div>
+
+			<div style="margin-top:500px"></div>
 		</div>
-	</div>
-</div>
+	</template>
 
-<div class="block">
-	<canvas id="myChart"></canvas>
+	<script>
+		export default{
 
-</div>
 
-		<div style="margin-top:500px"></div>
-	</div>
-</template>
+		}
+	</script>
 
-<script>
-export default{
-
-	
-}
-</script>
-
-<style>
+	<style>
 </style>
