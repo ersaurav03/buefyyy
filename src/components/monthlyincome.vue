@@ -9,7 +9,7 @@ labels: ['Jan', 'Feb','Mar','Apr','May','Jun','July','Aug','Sept','Oct','Nov','D
 datasets: [
 {
 label: 'Line chart Representation',
-backgroundColor: '#f87979',
+backgroundColor: 'rgba(255,255,255,0.5)',
  borderColor: [ 
  'rgb(255, 0, 132)'
 
