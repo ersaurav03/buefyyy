@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './router'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
-import 'chart.js/dist/Chart.js'
-import 'chart.js/dist/Chart.min.js'
+// import 'chart.js/dist/Chart.js'
+// import 'chart.js/dist/Chart.min.js'
     
 
 

@@ -35,14 +35,19 @@
 	</div>
 </div>
 
+<div class="columns">
+	<div class="column">
+		<mix></mix>
+	</div>
+</div>
 
 </div>
 </template>
 <script>
-	    import { Line } from 'vue-chartjs';
-  import { Pie } from 'vue-chartjs';
-   import { Bar } from 'vue-chartjs';
-     import { Radar } from 'vue-chartjs';
+	    // import { Line } from 'vue-chartjs';
+  // import { Pie } from 'vue-chartjs';
+  //  import { Bar } from 'vue-chartjs';
+  //    import { Radar } from 'vue-chartjs';
     
 
 
@@ -54,9 +59,10 @@ import doughnut from './doughnut.vue'
 import bubble from './bubble.vue'
 import polarar from './polarar.vue'
 import scatterr from './scatterr.vue'
+import mix from './mix.vue'
 export default {
 
-components: { MonthlyIncome,bar1,pie1,Radar1,doughnut,bubble,polarar,scatterr },
+components: { MonthlyIncome,bar1,pie1,Radar1,doughnut,bubble,polarar,scatterr,mix },
 
 }
 
