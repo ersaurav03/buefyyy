@@ -1,9 +1,22 @@
 
 <template>
 <div>
-<monthly-income :height="300" />
-<bar1></bar1>
-<pie1></pie1>
+
+<div class="columns">
+	<div class="column">
+		<!-- <monthly-income :height="300" /> -->
+		<MonthlyIncome></MonthlyIncome>
+	</div>
+		<div class="column">
+		<bar1></bar1>
+	</div>
+		<div class="column">
+		<pie1></pie1>
+	</div>
+	
+</div>
+
+
 </div>
 </template>
 <script>
