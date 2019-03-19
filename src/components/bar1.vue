@@ -3,6 +3,12 @@
   export default {
     extends: Bar,
     mounted () {
+      //     axios
+      // .get('https://api.myjson.com/bins/pgiy4')
+      // .then(response =>{
+      //    data = response
+
+      //    })
       this.renderChart({
         labels: ['Jan', 'Feb','Mar','Apr','May','Jun','July','Aug','Sept','Oct','Nov','Dec'],
         datasets: [

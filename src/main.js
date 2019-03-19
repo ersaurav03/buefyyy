@@ -13,7 +13,13 @@ Vue.use(Buefy)
 // Vue.use(axios)
 Vue.config.productionTip = false
 
-new Vue({
+Vue.use(Buefy, {
+  defaultIconPack: "fa"
+  });
+  
+var app = new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+
+global.vm = app

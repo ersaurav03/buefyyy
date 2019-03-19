@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Axxios from './views/axxios.vue'
+import Checks from './views/checks.vue'
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ export default new Router({
       path:'/Axxios',
       name:'Axxios',
       component:Axxios
+    },
+    {
+      path:'/Checks',
+      name:'Checks',
+      component:Checks
     }
   ]
 })

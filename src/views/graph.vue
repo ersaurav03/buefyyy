@@ -10,7 +10,9 @@
 				labels:['Jan','Feb','Mar','Apr','May','Jun'],
 				datasets: [
 				{
-					label:'MyActivities',backgroundColor:'blue',data:[40,33,22,11,56,99]
+					label:'MyActivities',
+					backgroundColor:'blue',
+					data:[40,33,22,11,56,99]
 				}
 				]
 			},{responsive:true, maintainAspectRatio: false})
