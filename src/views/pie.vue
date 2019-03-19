@@ -1,9 +1,9 @@
 
 <script>
-import { Pie } from 'vue-chartjs';
+import { PolarArea } from 'vue-chartjs';
 export default {
-extends: Pie,
-props: ['data', 'options'],
+extends: PolarArea,
+props: ['data', 'options','height'],
 mounted () {
 this.renderChart(this.data, this.options)
 }

@@ -1,48 +1,80 @@
 <template>
   <div >
       <div class="columns">
-        <div class="column is-4">
-       <graphp height="100px" :data="test"></graphp>
+        <div class="column is-6">
+       <graphp height="100px" :data="test" :options="options"></graphp>
         </div>
-        <div class="column is-4">
-        <bar height="100px" :data="test"></bar>
-        </div>
-        <div class="column is-4">
-           <pie height="100px" :data="test"></pie>
+        <div class="column is-6">
+        <bar height="100px" :data="test" :options="options"></bar>
         </div>
       </div>
-    
-    
- 
+      <div class="columns">
+        <div class="column is-6">
+           <pie1 height="200px" :data="test" :options="options"></pie1>
+        </div>
+        <div class="column is-6">
+        </div>
+      </div>
     </div>
 </template>
-
 <script>
 import axios from 'axios'
 import graphp from './graphp.vue'
 import bar from './barchart.vue'
-import pie from './pie.vue'
+import pie1 from './pie.vue'
 export default{
   components:{
       graphp,
       bar,
-      pie
+      pie1
       },
   data () {
           return {
+            isLoading:false,
             test:{
             labels: [],
             datasets: [
                 {
                 label: 'Data One',
-                backgroundColor: '#f87979',
+                backgroundColor: [
+                  'rgba(255, 99, 132, 1.0)',
+                  'rgba(0, 162, 235, 1.0)',
+                  'rgba(255, 206, 86, 0.8)',
+                  'rgba(75, 192, 192, 0.7)',
+                  'rgba(153, 102, 255, 0.9)',
+                  'rgba(255, 159, 64, 1.0)',
+                  'rgba(255, 99, 132, 1.0)',
+                  'rgba(0, 162, 235, 1.0)',
+                  'rgba(255, 206, 86, 0.8)',
+                  'rgba(75, 192, 192, 0.7)',
+                  'rgba(153, 102, 255, 0.9)',
+                  'rgba(255, 159, 64, 1.0)',
+                  'rgba(255, 159, 0, 1.0)'
+                 ],
                 data: []
                 }
             ]
           },
+          options:{
+            title:{
+              display: true,
+              text: "Display Data with Chart.js"
+            },
+            tooltips: {
+
+              },
+        scales: {
+            xAxes: [{
+                display: false
+            }],
+            yAxes: [{
+                display: false
+            }]
+        }
+          }
           }
   },
-    created () {
+    mounted () {
   this.getData();
   },
   methods:{

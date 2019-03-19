@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Axxios from './views/axxios.vue'
 import Checks from './views/checks.vue'
+import mixgraph from './views/mixgraph.vue'
 
 Vue.use(Router)
 
@@ -32,6 +33,11 @@ export default new Router({
       path:'/Checks',
       name:'Checks',
       component:Checks
+    },
+    {
+      path:'/mixgraph',
+      name:'mixgraph',
+      component:mixgraph
     }
   ]
 })
