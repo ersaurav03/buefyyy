@@ -1,23 +1,37 @@
 <template>
   <div >
-    <h1> arrr is {{test.datasets[0].data}}</h1>
-      <div v-if="isLoading">
-    <graphp height="100px" :data="test"></graphp>
+      <div class="columns">
+        <div class="column is-4">
+       <graphp height="100px" :data="test"></graphp>
+        </div>
+        <div class="column is-4">
+        <bar height="100px" :data="test"></bar>
+        </div>
+        <div class="column is-4">
+           <pie height="100px" :data="test"></pie>
+        </div>
       </div>
+    
+    
+ 
     </div>
 </template>
 
 <script>
 import axios from 'axios'
 import graphp from './graphp.vue'
+import bar from './barchart.vue'
+import pie from './pie.vue'
 export default{
   components:{
-      graphp
+      graphp,
+      bar,
+      pie
       },
   data () {
           return {
             test:{
-            labels: ['Jan', 'Feb','Mar','Apr','May','Jun','July','Aug','Sept','Oct','Nov','Dec'],
+            labels: [],
             datasets: [
                 {
                 label: 'Data One',
@@ -34,15 +48,16 @@ export default{
   methods:{
 getData(){
     axios
-      .get('https://api.myjson.com/bins/1drway')
+      .get('https://api.myjson.com/bins/fufb6')
       .then(response =>{
        console.log(response);
          this.test.datasets[0].data = response.data.data
+         this.test.labels=response.data.labels
          })
         .catch(error => {
           console.log(error);
         })
-        .finally(() => (this.loading = false));
+        .finally(() => (this.loading = true));
            this.isLoading = true;
      },   
   },
