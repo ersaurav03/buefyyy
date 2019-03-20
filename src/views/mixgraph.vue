@@ -52,11 +52,11 @@ export default{
 getData(){
     
     axios
-      .get('https://api.myjson.com/bins/xd7n6')
+      .get('https://api.myjson.com/bins/90lru')
       .then(response =>{
     //      console.log(response.data.data_sets[0].label);
-      console.log(response.data)
-      this.test.labels=response.data.labels
+      console.log(response.data.data_sets)
+      this.test.labels=response.data.label_s
       this.test.datasets=response.data.data_sets
          })
         .catch(error => {
