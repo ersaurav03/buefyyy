@@ -51,7 +51,8 @@ export default{
                   'rgba(255, 159, 64, 1.0)',
                   'rgba(255, 159, 0, 1.0)'
                  ],
-                data: []
+                data: [],
+                 borderWidth: 3
                 }
             ]
           },

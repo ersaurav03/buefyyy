@@ -2,7 +2,7 @@
 <template>
   <div >
       <div class="columns">
-        <div class="column is-6">
+        <div class="column is-6">{{this.test.datasets}}
        <graphp height="100px" :data="test" :options="options"></graphp>
         </div>
 
@@ -36,10 +36,10 @@ export default{
               },
         scales: {
             xAxes: [{
-                display: false
+                display: true
             }],
             yAxes: [{
-                display: false
+                display: true
             }]
         }
           }
@@ -52,25 +52,12 @@ export default{
 getData(){
     
     axios
-      .get('https://api.myjson.com/bins/6epde')
+      .get('https://api.myjson.com/bins/xd7n6')
       .then(response =>{
-       console.log(response.data.data);
-
     //      console.log(response.data.data_sets[0].label);
-    //   console.log(this.arr)
-    //      this.test.labels=response.data.labels
-
-   debugger
-          for(var i=0;i<response.data.data.length;i++)
-          {
-            this.test.datasets.push({
-               label:response.data.data[i].label,
-                data:response.data.data[i].series
-            })
-             
-          }
-          
-        
+      console.log(response.data)
+      this.test.labels=response.data.labels
+      this.test.datasets=response.data.data_sets
          })
         .catch(error => {
           console.log(error);
